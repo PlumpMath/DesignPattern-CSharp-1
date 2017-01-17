@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>cb4d67ac-278c-4b83-bf00-f68ce64cc0e1</ProjectGuid>
+    <ProjectGuid>{53FD8DDC-B4E7-4239-AF1B-267D3915B737}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FactoryPattern</RootNamespace>
@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

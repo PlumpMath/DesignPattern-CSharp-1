@@ -10,6 +10,8 @@ namespace FactoryPattern
     {
         static void Main(string[] args)
         {
+            SimpleFactory simple_factory = new SimpleFactory();
+            simple_factory.Run();
         }
     }
 }
