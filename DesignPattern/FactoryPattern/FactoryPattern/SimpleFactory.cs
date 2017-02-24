@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    public class SimpleFactory
+    public class SimpleFactory : IRunPattern
     {
         public void Run()
         {

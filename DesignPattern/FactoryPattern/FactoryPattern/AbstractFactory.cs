@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    class AbstractFactory
+    class AbstractFactory : IRunPattern
     {
         public void Run()
         {
